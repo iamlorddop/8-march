@@ -1,4 +1,14 @@
-document.addEventListener('mousemove', parallax)
+(checkAndRepaint)();
+window.onresize = checkAndRepaint;
+
+function checkAndRepaint() {
+  if (window.innerHeight >= 700) {	
+	document.addEventListener('mousemove', parallax)
+  } else {
+	document.addEventListener('scroll', parallax)
+  }
+
+}
 
 function parallax(e) {
 	this.querySelectorAll('.parallax').forEach(parallax => {
