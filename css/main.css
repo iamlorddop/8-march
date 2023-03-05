@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	color: rgba(125, 120, 209, 1);
+	font-family: 'Lobster', cursive;
+	font-size: 72px;
+	background: #F6DCF7;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.row {
+	position: relative;
+	height: 100vh;
+}
+
+.parallax {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.petlas {
+	margin: -313px 0 0 -720px;
+}
+
+.march8 {
+	margin: -380px 0 0 -265px;
+}
+
+.bear {
+	margin: 20px 0 0 -246px;	
+}
+
+.flowerviolet {
+	margin: -118px 0 0 -494px;		
+}
+
+.flower {
+	margin: 152px 0 0 262px;			
+}
+
+.diamondviolet {
+	margin: -350px 0 0 414px;		
+}
+
+.diamond {
+	margin: 226px 0 0 -362px;		
+}
+
+.text {
+	margin: 320px 0 0 -180px;
+	text-align: center;
+}
+
+@media (max-width: 700px) {
+	body {
+		font-size: 36px;
+	}
+
+	.row {
+		overflow: hidden;
+	}
+
+	.petlas {
+		margin: -216px 0 0 -308px;
+		width: 720px;
+	}
+
+	.march8 {
+		margin: -220px 0 0 -144px;
+		width: 265px;
+	}
+
+	.bear {
+		margin: -5px 0 0 -140px;	
+		width: 130.5px;
+	}
+
+	.flowerviolet {
+		margin: 162px 0 0 76px;		
+		width: 126.5px;
+	}
+
+	.flower {
+		margin: -378px 0 0 -156px;
+		width: 143.5px;
+	}
+
+	.diamondviolet {
+		margin: -310px 0 0 42px;	
+		width: 138px;
+	}
+
+	.diamond {
+		margin: 114px 0 0 -190px;		
+		width: 60px;
+	}
+	
+	.text {
+		margin: 140px 0 0 -90px;	
+	}
+}
